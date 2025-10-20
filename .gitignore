@@ -1,0 +1,28 @@
+# OS & Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python / Env
+.venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter temp
+.ipynb_checkpoints/
+
+# Raw data and outputs
+course_data_gpx/
+course_data_kml/
+course_images/
+*.csv
+*.gpx
+*.kml
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# Environment & secrets
+.env
