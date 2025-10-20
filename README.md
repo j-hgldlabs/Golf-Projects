@@ -23,9 +23,9 @@ Outputs
 
 High-resolution transparent PNG slope map
 
-Optional contour overlay for visual reference
+<img width="429" height="683" alt="image" src="https://github.com/user-attachments/assets/c3a6f723-54f9-482f-9a24-d5067ee12927" />
 
-DataFrame with lat/lon/elevation/slope values for further analysis
+Optional contour overlay for visual reference
 
 2. Green_Mapping_OCT25.ipynb
 
@@ -49,6 +49,12 @@ Outputs:
 
 Transparent slope heatmap of the green surface
 
+<img width="779" height="1116" alt="image" src="https://github.com/user-attachments/assets/bfe3c3cc-c054-40fc-8811-b2de67e870aa" />
+
 Directional gradient (arrow field) showing downhill flow
 
-Statistical table summarizing elevation range, mean slope, and aspect variation
+<img width="775" height="1116" alt="image" src="https://github.com/user-attachments/assets/e158e94b-7d06-4012-a2b2-23609adba341" />
+
+USGA compliant green mapping
+
+<img width="794" height="1312" alt="image" src="https://github.com/user-attachments/assets/524527c1-ae67-47fd-a546-6850a71c0599" />
