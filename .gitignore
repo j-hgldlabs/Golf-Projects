@@ -1,28 +1,68 @@
-# OS & Editor
+# ====================
+# Python / Jupyter
+# ====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook caches
+**/.ipynb_checkpoints
+
+# ====================
+# Node / React Native / Expo
+# ====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.pnpm-store/
+expo-error.log
+
+# Metro / bundler
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# Expo Router build artifacts
+.expo-router/
+
+# iOS (generated after prebuild)
+ios/Pods/
+ios/build/
+ios/*.xcodeproj/*
+ios/*.xcworkspace/*
+android/.gradle/
+android/app/build/
+android/build/
+
+# Android / Gradle
+*.apk
+*.aab
+*.keystore
+.gradle/
+local.properties
+
+# ====================
+# OS / Editor Files
+# ====================
 .DS_Store
+Thumbs.db
 .vscode/
 .idea/
 
-# Python / Env
-.venv/
-__pycache__/
-*.py[cod]
-
-# Jupyter temp
-.ipynb_checkpoints/
-
-# Raw data and outputs
-course_data_gpx/
-course_data_kml/
-course_images/
-*.csv
-*.gpx
-*.kml
-*.png
-*.jpg
-*.jpeg
-*.pdf
-*.svg
-
-# Environment & secrets
-.env
+# ====================
+# Maps & Course Data (optional)
+# ✅ Keep your GPX/PNG/SVG — DO NOT ignore those
+# But large exports like high-res tiles can be ignored:
+*.geodata.zip
+*.kmz
