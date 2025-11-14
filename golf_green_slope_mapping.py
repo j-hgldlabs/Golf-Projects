@@ -133,7 +133,7 @@ def main(gpx_file_path):
     plot_slope_map(grid_x_shifted, grid_y_shifted, slope_degrees, page_width_m, page_height_m, zoom_factor)
 
 # Example usage
-gpx_file = '/Users/joshh./Downloads/course_mapping_project/course_data_gpx/tapatioresort_greens/tapatioresort_green_3.gpx'
+gpx_file = '{path_to_your_gpx_file_here}'
 main(gpx_file)
 
 # %%
@@ -266,7 +266,7 @@ def main(gpx_file_path):
 
     plot_slope_map(grid_x_shifted, grid_y_shifted, slope_degrees, aspect, page_width_m, page_height_m, zoom_factor)
 
-gpx_file = '/Users/joshh./Downloads/course_mapping_project/course_data_gpx/tapatioresort_greens/tapatioresort_green_3.gpx'
+gpx_file = '{path_to_your_gpx_file_here}'
 main(gpx_file)
 
 
@@ -544,7 +544,7 @@ def main(gpx_file_path, competition_legal=False):
 
 # === ENTRY POINT ===
 if __name__ == "__main__":
-    gpx_file = "/Users/joshh./Downloads/course_mapping_project/course_data_gpx/tapatioresort_greens/tapatioresort_green_3.gpx"  # replace with your GPX path
+    gpx_file = "{path_to_your_gpx}"  # replace with your GPX path
     legal_mode = input("Competition legal mode? (y/n): ").strip().lower() == "y"
     main(gpx_file, competition_legal=legal_mode)
 
@@ -877,7 +877,7 @@ def write_geojson(out_path, features, crs_name="EPSG:4326"):
 
 
 # === MAIN FUNCTION ===
-def main(gpx_file_path, competition_legal=False, geojson_out="/tmp/green_map.geojson",
+def main(gpx_file_path, competition_legal=False, geojson_out="{output_path}",
          stride_points=3, export_arrows=True):
     zoom_factor = float(input("Enter zoom factor (e.g., 1.0=original, 0.5=zoom out, 2.0=zoom in): "))
 
@@ -967,9 +967,9 @@ def main(gpx_file_path, competition_legal=False, geojson_out="/tmp/green_map.geo
 
 # === ENTRY POINT ===
 if __name__ == "__main__":
-    gpx_file = "/Users/joshh./Downloads/course_mapping_project/course_data_gpx/tapatioresort_greens/tapatioresort_green_4.gpx"  # <-- update to your GPX path
+    gpx_file = "{gpx_file_path}"  # <-- update to your GPX path
     legal_mode = input("Competition legal mode? (y/n): ").strip().lower() == "y"
-    out_path = "/Users/joshh./Downloads/course_mapping_project/green_geojson/tapatio/tapgreen_4_slope.geojson"  # <-- update if desired
+    out_path = "{desire output path}"  # <-- update if desired
     main(gpx_file, competition_legal=legal_mode, geojson_out=out_path, stride_points=3, export_arrows=True)
 
 
